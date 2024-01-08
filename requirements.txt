@@ -1,5 +1,7 @@
 pandas==2.1.4
 praw==7.7.1
+urllib==1.26.18
+xmltodict==0.13.0
 prawcore==2.4.0
 dash==2.14.2
 
