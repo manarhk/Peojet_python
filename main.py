@@ -1,68 +1,41 @@
-# Importation des bibliothèques nécessaires
-import praw  # Bibliothèque d'accès à l'API Reddit
-import pandas as pd  # Bibliothèque pour la manipulation de données en Python
+# Importation des modules nécessaires
+from dash.dependencies import Input, Output, State
+from dash import html, dcc
+from dash import Dash
+import pandas as pd
+from app_classes import AppLayout  # Importation d'une classe personnalisée pour la mise en page de l'application
 
-# Configuration de l'accès à l'API Reddit
-reddit = praw.Reddit(
-    client_id='sq1EANIMnUKWuqceKXTYEA',  # Identifiant client pour l'application Reddit
-    client_secret='2AJg8V4sHB2EzusCjpaaoZFelo7q2w',  # Clé secrète pour l'application Reddit
-    user_agent='Myapp'  # Nom de l'agent utilisateur pour l'application Reddit
+# Création d'une instance de la classe AppLayout pour définir la mise en page de l'application
+app_layout = AppLayout()
+
+# Création d'une application Dash avec une feuille de style externe
+app = Dash(__name__, external_stylesheets=['assets/styles.css'])
+
+# Définition de la mise en page de l'application en utilisant la classe AppLayout
+app.layout = app_layout.get_layout()
+
+# Callback pour mettre à jour la sortie (output-container) en fonction des interactions utilisateur
+@app.callback(
+    Output('output-container', 'children'),  # La sortie est la section 'output-container' de la mise en page
+    [Input('search-button', 'n_clicks')],  # L'entrée est le nombre de clics sur le bouton de recherche
+    [State('input-box', 'value')]  # L'état représente la valeur actuelle dans la boîte de saisie
 )
+def update_output(n_clicks, value):
+    if value and n_clicks != 0:  # Vérification que la valeur n'est pas vide et que le bouton de recherche a été cliqué
+        data = app_layout.get_data_handler()  # Obtention d'un gestionnaire de données personnalisé depuis la classe AppLayout
+        dataframe = pd.DataFrame(data.filter_data(value))  # Filtrage des données en fonction de la valeur de la boîte de saisie
 
-# Initialisation d'une liste pour stocker les données des publications Reddit
-posts = []
+        # Création d'un tableau HTML pour afficher les résultats
+        result_table = html.Table(
+            # Header du tableau
+            [html.Tr([html.Th('Titre'), html.Th('URL'), html.Th('Body')])] +
+            # Lignes de données
+            [html.Tr([html.Td(dataframe.iloc[i]['title']),
+                      html.Td(dcc.Link(dataframe.iloc[i]['url'], href=dataframe.iloc[i]['url'], target='_blank')),
+                      html.Td(dataframe.iloc[i]['body'])]) for i in range(len(dataframe))]
+        )
+        return result_table  # Retourne le tableau résultant pour affichage dans 'output-container'
 
-# Accès aux publications dans la catégorie 'python'
-ml_subreddit = reddit.subreddit('python')
-
-# Récupération des 100 premières publications populaires
-for post in ml_subreddit.hot(limit=100):
-    posts.append([
-        post.title,
-        post.score,
-        post.id,
-        post.subreddit,
-        post.url,
-        post.num_comments,
-        post.selftext,
-        post.created
-    ])
-
-# Création d'un DataFrame pandas à partir des données collectées
-posts = pd.DataFrame(
-    posts,
-    columns=['title', 'score', 'id', 'subreddit', 'url', 'num_comments', 'body', 'created']
-)
-
-# Affichage du DataFrame
-print(posts)
-
-# Enregistrement des données dans un fichier CSV
-posts.to_csv('Python_reddit_posts.csv', index=False, columns=['title', 'score', 'id', 'subreddit', 'url', 'num_comments', 'body', 'created'])
-
-# Fonction pour charger les données à partir d'un fichier CSV
-def load_data(file_path):
-    return pd.read_csv(file_path)
-
-# Fonction pour rechercher une requête dans la colonne 'title' du jeu de données
-def search_query(query, data):
-    # Recherche d'une correspondance insensible à la casse dans la colonne 'title'
-    results = data[data['title'].str.contains(query, case=False, na=False)]
-    return results
-
-# Fonction principale de l'application
-def app():
-    file_path = 'Python_reddit_posts.csv'  # Chemin vers le fichier de données (à adapter)
-    data = load_data(file_path)
-    
-    query = input("Entrez votre requête de recherche : ")
-    results = search_query(query, data)
-    
-    if not results.empty:
-        print("Résultats de la recherche :")
-        print(results)
-    else:
-        print("Aucun résultat trouvé pour votre requête.")
-
-# Exécution de l'application
-app()
+# Exécution de l'application en mode débogage
+if __name__ == '__main__':
+    app.run_server(debug=True)
