@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Stylisation du corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333; 
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #f8da5b;
+} 
+/* Centrer le contenu de la page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+
+/* Style du formulaire de recherche */
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-box {
+    width: 60%; /* Augmentation de la largeur du champ de saisie */
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 80px;
+    box-shadow: 5px 5px 10px #f8da5b;
+}
+
+.search-button {
+    background-color: #f8da5b; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanc */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Coins arrondis */
+}
