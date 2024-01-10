@@ -1,0 +1,549 @@
+title,author,id,url,num_comments,body,created_date
+Python 3 is killing Python,upofadown,26irie,https://medium.com/@deliciousrobots/5d2ad703365d/,149,,2014-05-26 13:56:54
+Create GUI apps with Python in minutes,mherrmann,8imbya,https://build-system.fman.io,31,,2018-05-11 09:06:16
+Python and Selenium are better for scraping data,preetisw,z7qs7y,https://www.reddit.com/r/Python/comments/z7qs7y/python_and_selenium_are_better_for_scraping_data/,35," Headless browsers in Python and Selenium are better for scraping data from web pages where scrapers have been blocked. 
+
+We followed step-by-step advice for scraping data from a web page using a headless chrome in Selenium Python. It's fast, easy, requires less resources (so it can run on older laptops), and can deal with JavaScript perfectly.
+
+[https://www.zenrows.com/blog/headless-browser-python](https://www.zenrows.com/blog/headless-browser-python?utm_source=reddit.com&utm_medium=social&utm_campaign=social-communities)",2022-11-29 10:55:34
+"Pydantic has too much deprecation, making it difficult to keep up with updates and maintaining the code. Lots of functionality has been renamed, and some are removed during v1→v2 transition. Even sample code from November 2023 is deprecated now! Are there better alternatives?",nderstand2grow,18xrc1y,https://www.reddit.com/r/Python/comments/18xrc1y/pydantic_has_too_much_deprecation_making_it/,77,"Almost all tutorials I see online (and ChatGPT's knowledge base) teach you Pydantic v1. There are numerous things that are deprecated during transition to v2 (@root_validator, @validator, using 'always', etc. are all gone now.). I even found a code example on its Github from November 2023 which now throws an error, saying that FieldValidationInfo is deprecated now, use <new_thing> instead...
+I wanted to use something to validate user inputs to my API, but getting Pydantic right and then keeping it updated has been too much unnecessary work, which makes me wonder if you have also faced this problem and what your solution is?",2024-01-03 19:15:33
+Why Python is Powerful Enough for Google,mikeyanderson,1wbvhk,https://www.codefellows.org/blogs/5-reasons-why-python-is-powerful-enough-for-google,50,,2014-01-28 00:48:09
+Do the moderators here actually do anything or are they just for show?,throwaway51745345,2kju4j,https://www.reddit.com/r/Python/comments/2kju4j/do_the_moderators_here_actually_do_anything_or/,61,"Throwaway account in case I'd get banned for speaking my mind (it happens in some subreddits). I see a lot of irrelevant posts in this subreddit that would be more fit for /r/learnpython, /r/learnprogramming or elsewhere but despite this sub having nine (9) moderators they seem to barely be active here. What's up with that? Instead of beginners asking questions, getting scolded, downvoted and told to go to /r/learnpython or figuratively to GTFO - why not... actively moderate? If you don't have the time, maybe ask for volunteers to step up and moderate? Some examples from the last three days:
+
+* http://www.reddit.com/r/Python/comments/2kiccx/game_ideas_in_a_rut/
+* http://www.reddit.com/r/Python/comments/2ki4yp/help_me_understand_a_bit_about_lists/
+* http://www.reddit.com/r/Python/comments/2khyww/could_i_get_a_job/
+* http://www.reddit.com/r/Python/comments/2khvir/sum_of_a_list_greater_than_100/
+* http://www.reddit.com/r/Python/comments/2khetd/python_beginner_why_there_is_no_easy_gui_builder/
+* http://www.reddit.com/r/Python/comments/2kh9ar/help_with_porting_python2_import_statements_to/
+* http://www.reddit.com/r/Python/comments/2kg5db/which_ide_should_i_use_beginner/
+* http://www.reddit.com/r/Python/comments/2kg2kv/best_pycharm_plug_ins/
+* http://www.reddit.com/r/Python/comments/2k0rda/would_it_be_possible_to_convert_this_flash_into/
+* http://www.reddit.com/r/Python/comments/2kfqtt/getting_this_error_when_run_py_script/
+* http://www.reddit.com/r/Python/comments/2kf0q3/how_to_make_a_webpage_with_live_webcamera_view/
+* http://www.reddit.com/r/Python/comments/2kes8r/checking_things/
+* http://www.reddit.com/r/Python/comments/2keqzv/links_to_any_pythran_windows_binary/
+* http://www.reddit.com/r/Python/comments/2kelg4/java_and_python/
+* http://www.reddit.com/r/Python/comments/2kdy1b/run_python_scripts_from_web/
+* http://www.reddit.com/r/Python/comments/2kc48f/help_sending_bytes_between_arduino_and_python/
+* http://www.reddit.com/r/Python/comments/2kbrrh/pyopencl_trying_to_learn_how_to_create_and/
+* http://www.reddit.com/r/Python/comments/2kab3x/where_to_move_next/
+* http://www.reddit.com/r/Python/comments/2ka1wy/help_need_to_create_a_script_that_lists/ 
+* http://www.reddit.com/r/Python/comments/2ka1eb/how_to_preview_in_pycharm_like_coda/
+* http://www.reddit.com/r/Python/comments/2k9va2/what_is_pycharm_remote_interpreter_useful_for/
+* http://www.reddit.com/r/Python/comments/2k9qb1/best_ide_for_python/
+* http://www.reddit.com/r/Python/comments/2k8ncl/networking_library_for_python_3/
+* http://www.reddit.com/r/Python/comments/2k8ez4/hello_im_not_new_to_programming_but_im_new_to/
+* http://www.reddit.com/r/Python/comments/2k7mtq/lf_help_to_parse_a_cisco_show_command/
+* http://www.reddit.com/r/Python/comments/2k4bno/helphow_to_call_java_class_methods_in_python/",2014-10-28 08:14:17
+100 Data Science in Python Interview Questions and Answers,annmeera,3yrciq,https://www.dezyre.com/article/100-data-science-in-python-interview-questions-and-answers/188#.VoOJGaacd14.reddit,38,,2015-12-30 07:37:55
+Async Python is not faster,higherorderbebop,x9x8pb,https://calpaterson.com/async-python-is-not-faster.html,47,,2022-09-09 14:39:53
+A smart way to print :),Lonely_Comfortable36,uvqz4t,https://www.reddit.com/r/Python/comments/uvqz4t/a_smart_way_to_print/,72,"Hello Pythonistas!
+
+I made this print statement alternative in python which is very helpful for debugging. The idea is to save writing a long comment for the variable name every time we want to print something.
+
+`from smartprint import smartprint as sprint`
+
+`veryLongVariableName = 25`
+
+`sprint (veryLongVariableName)`
+
+&#x200B;
+
+Output:
+
+`veryLongVariableName = 25`
+
+&#x200B;
+
+It works through extracting the line of code from the call stack, so works with all kinds of objects and variable number of parameters, just like print. Please let me know your suggestions and if you found the `smartprint` useful :)
+
+&#x200B;
+
+`a = [1,22,31]` 
+
+`sprint (a, len(a))` 
+
+`sprint (np.random.rand())`
+
+Output: 
+
+`a, len(a) : [1, 22, 31] 3` 
+
+`np.random.rand() : 0.649617730484109` 
+
+&#x200B;
+
+Have a great week ahead!
+
+Link to pypi: [https://pypi.org/project/smartprint/](https://pypi.org/project/smartprint/)
+
+Please feel free to raise an issue at the github homepage: [https://github.com/abcnishant007/smartprint](https://github.com/abcnishant007/smartprint)",2022-05-23 03:16:25
+How To Make Flask Apps The CORRECT Way,ronnytec,10j2zil,https://www.reddit.com/r/Python/comments/10j2zil/how_to_make_flask_apps_the_correct_way/,22,"How's it going people. I've made a little crash course for ""how to make flask apps."" This tutorial is based on ironing out all the bs, issues, errors, and wrong directions tutorials make whilst trying to teach how to make flask apps. I'm not condemning them, but I want to show beginners how to make good flask apps without running into issues.
+
+Repo link:  [https://github.com/Wizock/SuperiorPattern](https://github.com/Wizock/SuperiorPattern)
+
+# Video link: [How To Make Flask Apps The CORRECT Way | The Superior Pattern](https://www.youtube.com/watch?v=hm88wBpJb88)
+
+Please provide any feedback, I want this pattern to be as polished as possible so newcomers don't lose interest in web development because of stupid venv issues or circular import issues working with sqlalchemy db variable import issues.",2023-01-23 03:48:34
+Learn Python the right way in 5 steps,jaypeedevlin,542k41,https://www.dataquest.io/blog/learn-python-the-right-way/,23,,2016-09-23 02:12:35
+Tools used by Python Super Stars,iheartpython,1y6q2s,http://pypix.com/roundups/tools-python-super-stars/,4,,2014-02-17 22:58:27
+There is a flash of light! Your PYTHON has evolved into ...,schmichael,29udu3,http://alexgaynor.net/2014/jul/04/your-python-has-evolved/,19,,2014-07-04 18:20:54
+Will Code for Free,MrBluntsNuts,18yimj6,https://www.reddit.com/r/Python/comments/18yimj6/will_code_for_free/,65,"So, I've learned an ass-load about Python and I think I have a pretty good grasp on even some of the more advanced concepts, but I desperately need to apply what I've learned.
+
+Does anyone have anything I can be of assistance with in return for just the hands-on experience?  Any suggestions where I should go to maybe find people who could use my assistance?  I willing to freakin' work for free.
+
+&#x200B;
+
+Update: I really appreciate the responses.  I've definitely worked on some of my own stuff, but I know I could learn a lot more and faster working with others.  I'm doing my best to get back to everyone who offered.  Thank you again everyone.",2024-01-04 17:29:14
+Hidden Features of Python,pmz,16pxpq4,https://stackabuse.com/hidden-features-of-python/,20,,2023-09-23 07:09:34
+Make Lisp 15x faster than Python or 4x faster than Java,smanek,av7nh,http://blog.postabon.com/make-lisp-15x-faster-than-python-or-4x-faster,12,,2010-01-28 13:07:32
+Multiplayer Framework For Pygame,CryptoBlocks257,m49jk3,https://www.reddit.com/r/Python/comments/m49jk3/multiplayer_framework_for_pygame/,41,"Hey everyone here is a little framework I made to help you get started making multiplayer games with Pygame and Sockets. The framework comes with movement and jumping over the network here is the GitHub repo - https://github.com/Len-Stevens/Pygame-Multiplayer-Framework 
+
+&#x200B;
+
+&#x200B;
+
+https://i.redd.it/w2zlyfowmtm61.gif",2021-03-13 16:22:06
+"Is it just me, or is SQLAlchemy an unholy mess?",syllogism_,aqare,https://www.reddit.com/r/Python/comments/aqare/is_it_just_me_or_is_sqlalchemy_an_unholy_mess/,75,"I decided to use SQLAlchemy for a relatively simple project, because I don't do much with database connectivity or SQL and thought I ought to learn it, as it seems to be highly regarded. I either don't understand it at all, or it doesn't make a lot of sense.
+
+My main complaint is that the ORM part seems to live in a totally different universe from the SQL query part. If I use a declarative map, and take advantage of the way the ORM allows me to specify relations as table properties etc, how do I then go and use the query language?
+
+It looks to me like there are two totally separate ways to write queries: one using session.query using the ORM, and one using sqlalchemy.sql.select. It just doesn't make any sense to me --- the different parts don't hang together. There are just all these loose ends dangling everywhere, leaving me with multiple ways to do the same thing.
+
+Do people really swear by this?",2010-01-16 07:42:47
+"It's time to migrate to Python 3.x guys, seriously.",YouNorker,1ecjbw,https://www.reddit.com/r/Python/comments/1ecjbw/its_time_to_migrate_to_python_3x_guys_seriously/,51,"Enough of this ""I'm still waiting for Python 3 to be good."" It is good. Use a migration tool and upgrade to 3.3 (as of 2013)",2013-05-14 23:29:46
+Windows Desktop Notifications in 3 lines of Code | Python 3.6,Unknown Author,bfmneb,https://www.youtube.com/watch?v=KshTf2A5aUk,25,,2019-04-21 08:08:34
+Python Cheat Sheet,liranbh,55ym3j,https://www.cheatography.com/davechild/cheat-sheets/python/,32,,2016-10-05 09:11:19
+Stop writing lambda expressions in Python,treyhunner,9jfko6,http://treyhunner.com/2018/09/stop-writing-lambda-expressions/,26,,2018-09-27 18:50:20
+Apparently Quentin Tarantino is making a movie about Python web programming ,agconway,ix00t,http://www.imdb.com/title/tt1853728/,9,,2011-07-22 18:03:10
+Python Programming Tutorial File handling part 18,cloudyrathor,7m117q,https://www.youtube.com/attribution_link?a=-oXb0WRNZas&u=%2Fwatch%3Fv%3DE24pt9bE-NM%26feature%3Dshare,4,,2017-12-25 11:51:39
+"Kite, the copilot for programmers, available today for Python",alexflint,620ejb,https://kite.com/#,54,,2017-03-28 16:27:06
+"It’s Python, Not Python 2, Not Python 3!",AlirezaSavand,5fwrdf,https://medium.com/@Alir3z4/its-python-not-python-2-not-python-3-7caeef5adb29#.f4e9cl32n,32,,2016-12-01 14:15:24
+[TIL] CPython is mostly written in Python (not C),NireHickcould6,80zc9p,https://i.imgur.com/kzEQZiO.png,6,,2018-02-28 20:33:58
+I was having way too much fun with a script and decided it needed an appropriate logo. Hope you enjoy!,mechanik,7wau8e,https://i.redd.it/6rfqqmpb24f01.png,9,,2018-02-09 04:00:34
+10% of the 666 most popular Python GitHub repos have f-string bugs (so 68 pull requests were made in 24 hours to fix them all),DjangoDoctor,ubkvrd,https://codereviewdoctor.medium.com/10-of-the-666-most-popular-python-github-repos-have-this-f-string-bug-69e3540c0583,96,,2022-04-25 13:13:49
+Python packaging cat jumps out of bag,aclark,orkz5,http://mail.python.org/pipermail/catalog-sig/2012-January/004152.html,22,,2012-01-22 17:08:21
+Alternative to Pygments,wWA5RnA4n2P3w2WvfHq,11upnql,https://www.reddit.com/r/Python/comments/11upnql/alternative_to_pygments/,16,Can anyone name an alternative package to pygments to generated HTML for highlighted code blocks?,2023-03-18 14:16:12
+Why we choose FastAPI over Flask for building ML applications,sweetaskate,ravkys,https://www.reddit.com/r/Python/comments/ravkys/why_we_choose_fastapi_over_flask_for_building_ml/,33,"Hi guys, our team has recently decided to adopt FastAPI and this is our experience:
+
+The project-Milvus Bootcamp is where people can use Milvus, a vector database, to build and experience vector similarity search applications like reverse image search systems and chatbots. Before making the final decision, we researched several mainstream frameworks including Django, Flask, Tornado, and FastAPI. And since our priority is to choose the one that’s most lightweight and agile, we narrowed it down to Flask and FastAPI.
+
+Here are some comparisons we made between FastAPI and Flask:
+
+https://preview.redd.it/qyj684e6a3481.png?width=912&format=png&auto=webp&s=f11832878d811e7b3a6b7d89e744c511a7ced9e1
+
+While there are no silver bullets, we choose FastAPI because of several reasons listed below:
+
+**1. Performance**
+
+Most of the projects in Milvus Bootcamp are built around reverse image search systems, QA chatbots, text search engines, which all have high demands for real-time data processing. Accordingly, we need a framework with outstanding performance, which is exactly a highlight of FastAPI. 
+
+**2. Efficiency**
+
+Milvus Bootcamp is positioned as a type of training resource. This means that the code and components we use must be intuitive and highly efficient. In this regard, we chose FastAPI to improve system efficiency and enhance user experience.
+
+**3. Asynchronous framework**
+
+In the demos we made, one can upload datasets and will be immediately prompted ""request received"". And when the data is uploaded to the demo system, you will receive another prompt ""data upload successfully"". This is an asynchronous process that requires a framework that supports this feature. FastAPI is itself an asynchronous framework, that's why we changed the framework from Flask to FastAPI.
+
+**4. Automatic interactive documents**
+
+Most of our users just want to quickly get started with the server-side development part of the projects in Milvus Bootcamp without writing additional code to create an interface. By providing an OpenAPI document, FastAPI can save one the trouble of testing or debugging APIs and collaborating with front-end teams to develop a user interface. 
+
+If you are interested, there are more details provided in this [article](https://milvus.io/blog/2021-12-03-why-to-choose-fastapi-over-flask.md?page=1#all).",2021-12-07 09:47:39
+My biggest struggle while helping newcomers with Python,dawran6,8gajyu,https://medium.com/@dawran6/my-biggest-struggle-while-helping-newcomers-with-python-8b5a1d1e43f7,9,,2018-05-01 18:10:43
+"Python Performance Tips, Part 1",havoyan,pou99,http://blog.monitis.com/index.php/2012/02/13/python-performance-tips-part-1/,53,,2012-02-14 07:41:24
+Mildly infuriating: being a complete novice to a new language and trying to get past the first tiny hurdles...,zeugma25,1j5na0,http://imgur.com/YMulz0f,50,,2013-07-27 11:56:24
+Creating python command-line applications,pauloortins,1gk9vz,http://pauloortins.com/creating-python-command-line-applications/,20,,2013-06-18 03:28:15
+Dramatically improve your skills with this simplified but more thorough guide on object-oriented programming in Python.,winner_godson,7aabia,https://coolpythoncodes.com/object-oriented-programming-python/,39,,2017-11-02 09:10:21
+I just started learning python and couldn't really think of a program to try on my own. Well me and a friend were having a debate and I finally made my first script... I call it the cock calculator,Dr_Octagonapus,2s150c,https://www.reddit.com/r/Python/comments/2s150c/i_just_started_learning_python_and_couldnt_really/,21,"It is a simple program, but it calculates the total miles of penis that a person has given or taken in their lives and also calculates how much semen has been produced. Sadly, I'm pretty proud of this.
+
+    #cock calculator
+    #Calculates how many miles of cock you have given or taken in your life and how much cum you have produced or been filled with.
+
+    #get the user's age, age of lost virginity, and times they have sex a week  
+    virginity = input(""when did you lose your virginity : "")
+    age = input(""What is your age? : "")
+    times_per_week = input(""how many times per week do you have sex? : "")
+
+    #calculates total time you have been having sex, how many times per year, and how many miles of cock is produced per year
+    time_having_sex = age - virginity
+    times_per_year = times_per_week * 52 
+    miles_per_year = times_per_year * 490 * 6/12/5280
+
+	
+    #function calculates total times milage of cock and how much semen is produced then prints the results.
+    def miles_of_cock(time_having_sex):
+	    total_milage = time_having_sex * miles_per_year
+	    jizz_gallons = float(times_per_year / 96 * time_having_sex)
+	    print
+	    print
+	    print
+	    print ""You have given/taken "", total_milage, "" miles of cock and have cummed/been cummed in with, "", jizz_gallons, "" pints of seamen. Great job!""
+
+    miles_of_cock(time_having_sex)
+
+
+The program assumes that the average penis length is 6 inches and there are 490 thrusts per session
+",2015-01-11 04:17:05
+"My first original, useful thing -- a program that lets you build your own graph matrixes",Biuku,mjzsd2,https://www.reddit.com/r/Python/comments/mjzsd2/my_first_original_useful_thing_a_program_that/,4,"[YouTube demo](https://www.youtube.com/watch?v=OaHjUX8kaCQ). [git](https://github.com/Biuku/MatrixMaker/).
+
+&#x200B;
+
+Wrote my first lines of Python April 17, 2020. Been a long fun journey. Been through the tutorial hell, nearly quit in September. Mostly, felt like I was building other people's things.
+
+But found a real passion for graph theory, Dijkstra, etc. I was unsatisfied with small textbook graphs. The theory's hard enough -- I wanted to work from intuitive graphs. To be able to custom-build graphs where nodes stand for things in my world -- cities on a map, buildings in a city.
+
+A bit of 'method of loci' in all that, I think.
+
+It's not hard to fill a knapsack with made-up items. But if you have an idea of 'loci' in your mind -- or steps in a project -- it's hard to turn that into an adjacency matrix. Automating that was my goal.
+
+Still very much in development. But it does... something now, so sharing.
+
+My goal is to make it a standalone teaching tool, with layers for colourful, step-by-step search algo's, topological sorting, exportable matrixes/lists, and pre-loaded graphs that correspond to popular locations -- cities, rooms in a building, steps to achieve something.
+
+Anyway, welcome feedback.
+
+(Built in pygame.)",2021-04-04 16:42:26
+Python Makes Tedd Nervous,mipadi,ccs33,http://teddziuba.com/2008/12/python-makes-me-nervous.html,45,,2010-06-08 16:26:15
+"""Best programming language to learn as a beginner"" - Python listed in the first place, leaving JS and JAVA behind",susanvilleula1,clhqd8,https://learnworthy.net/best-programming-language-to-learn/,70,,2019-08-03 11:26:48
+What I don't like about Pycon,gst,aw2ay,http://pydanny.blogspot.com/2010/01/what-i-dont-like-about-pycon.html,3,,2010-01-30 15:38:42
+Python has a sense of humor,wcb98,20hoo0,http://i.imgur.com/cXr4Kjf.png,11,,2014-03-15 17:15:02
+26 Useful Python Snippets for Lazy Developers,DecodeBuzzingMedium,poltdh,https://www.reddit.com/r/Python/comments/poltdh/26_useful_python_snippets_for_lazy_developers/,14,"Here are some of my most useful code snippets that will indefinitely make your life easier as a programmer! There are some Python code snippets that can be used to solve day-to-day problems and can make your **laziness shine!** I have explained each snippet in detail so that you don’t have any doubt. So check the link below:
+
+ [https://python.plainenglish.io/26-python-code-and-snippets-that-will-make-laziness-shine-21ab969c8a35](https://python.plainenglish.io/26-python-code-and-snippets-that-will-make-laziness-shine-21ab969c8a35)
+
+[ ](https://decodebuzzing.medium.com/?source=post_page-----21ab969c8a35--------------------------------)",2021-09-15 08:05:05
+Python Creator Guido van Rossum Reviews Code on CheckiO,gabrielemcinerney,355sww,http://www.checkio.org/mission/einstein-problem/publications/Lijantropique/python-3/first/#comment-29976,3,,2015-05-07 10:21:40
+OMG! YOU GUYS ARE INSANE!!!!,DevMysT,srko4p,https://www.reddit.com/r/Python/comments/srko4p/omg_you_guys_are_insane/,11,"A few days ago, I made my first Python module and then I shared it with you guys. 3 days later, one of my friends was saying, ""Yo bro, your module got 1k downloads"" and I was like, ""wtf?! FOR REAL? "" He showed me the screenshot and I was really shocked. I know this is a bit childish, but I was like screaming and jumping on my bed. ~~I am 15. I know I sound like an immature kid~~, but to be honest, I   
+never thought that I could have a module with 1k downloads. 
+
+Thank you so much, guys 🥺!!! You guys are great, and thanks for the motivation! It's helping me a lot, so yeah! Oh btw, last time you guys gave me some tips and tricks, so thanks for those. I tried to fix all the bugs. And I released a new version ""v0.0.5"", so feel free to check it out!   
+
+
+Thank you, Summoner99 and ptanmay143 for the amazing feedback  :)
+
+Here is the Github Repo for hashily: [https://github.com/MystYT-21/hashily](https://github.com/MystYT-21/hashily)
+
+Thank you guys once again, for showing support! You guys are the best <33 
+
+https://preview.redd.it/6i93g2247mh81.png?width=642&format=png&auto=webp&s=e06772488b2e5753e70ee0cfe96d5db0c3999045
+
+https://preview.redd.it/s525rni17mh81.png?width=721&format=png&auto=webp&s=38c09543b24ac6c88b69be8bc555a383db6c0664
+
+https://preview.redd.it/laxax5hr8mh81.png?width=666&format=png&auto=webp&s=0a85fce83f279bb29b58b0826d075093379e16a2",2022-02-13 15:09:30
+Pillars of Python: Six Python Web frameworks compared,moreyes,jegm3,http://www.infoworld.com/d/application-development/pillars-python-six-python-web-frameworks-compared-169442,8,,2011-08-10 10:33:09
+"Thoughts on ""Starting Your Coding Career with Python is a Bad Idea""?",EntertainmentOk4035,ukesps,https://www.analyticsinsight.net/why-starting-your-coding-career-with-python-is-a-bad-idea/,70,,2022-05-07 14:45:07
+A DoS attack in 15 lines of code.,progsNyx,if3chl,https://www.reddit.com/r/Python/comments/if3chl/a_dos_attack_in_15_lines_of_code/,26,"Hi, I have tried to create the simplest possible denial of service attack; for this script, I have not used more than 15 lines of code, and it is a **fully functional attack** setting the values of the variables ""ip"", ""port"" and ""threads"". For example:
+
+&#x200B;
+
+`ip, port, threads = ""192.13.451.153"", 8080, 1000`
+
+I have tried to follow the PEP8 standards as much as possible; I hope you like it.
+
+Post data: I have only done this to practice my knowledge with Python, I am not responsible for the use you make with this.
+
+Edit: I know the attack will not work in almost all of the cases, most of servers are fully prepared to avoid a dos attack, the attack will just ban your IP in 99% of the times.
+
+
+
+
+
+
+
+
+
+
+
+
+&#x200B;
+
+[The DoS attack](https://preview.redd.it/gkux3319ari51.png?width=833&format=png&auto=webp&s=f258935e6215ba84fee39da8ef365092400dda2f)",2020-08-23 13:39:38
+How to get banned from PyCon,dgtlshdw,1amf6x,http://term.ie/blog/how-to-get-banned-from-pycon/,10,,2013-03-19 22:18:06
+Do you guys make mistakes like this and waste hours?,ActiveTip2851,17lk79c,https://www.reddit.com/r/Python/comments/17lk79c/do_you_guys_make_mistakes_like_this_and_waste/,83,"[https://postimg.cc/qNM1dYYH](https://postimg.cc/qNM1dYYH)  
+I just wasted hours and hours looking for why my shared\_data manager dict is not actually share across processes. I loooked every place everywhere, revised 400+ lines of code, debugged every step. Then I fking realized what's up..",2023-11-01 19:32:54
+TIL you can use a for...else construct in Python! I will certainly be using this henceforth.,johnmcdonnell,10ub58,http://docs.python.org/reference/compound_stmts.html#the-for-statement,24,,2012-10-02 22:32:52
+"Battle of the server side scripting languages Perl, PHP, Python",gman1234,crwrh,http://l2admin.com/2010/07/21/battle-of-the-server-side-scripting-languages-perl-php-python/,15,,2010-07-21 04:45:31
+What is Pycharm?,10deeply,xxkzzx,https://www.reddit.com/r/Python/comments/xxkzzx/what_is_pycharm/,33,"I've recently started on Python and was looking at this tutorial until it said to download Pycharm.
+
+And I'm thinking that that Pycharm is just completely different. Sorry if this is a stupid question but I'm very confused.",2022-10-07 00:38:12
+ Python’s lambda is broken!,gst,8baq0,http://math.andrej.com/2009/04/09/pythons-lambda-is-broken/,20,,2009-04-09 18:02:27
+Most Frequent Python Problems and Solution,JohnettaHarned,3lxbyl,http://www.pamno.com/b/most-frequent-python-problems-and-solution-cm578/,8,,2015-09-22 11:47:34
+PEP 594 for Python 3.8: Is “batteries included” an outdated model?,helpdeveu,btjy3g,https://helpdev.eu/pep-594-for-python-3-8-is-batteries-included-an-outdated-model/,11,,2019-05-27 09:24:14
+Using Wilco to improve your Python skills,husky_misconception,w9lg85,https://www.reddit.com/r/Python/comments/w9lg85/using_wilco_to_improve_your_python_skills/,27,"Wilco, last weeks Product of the Week on Product Hunt just released Python. They help ""increase your engineering expertise and advance your career by acquiring, practicing, and mastering new skills on a real-life tech stack - while keeping things interesting.""
+
+[https://www.trywilco.com/](https://www.trywilco.com/)",2022-07-27 17:58:48
+What is the best Python IDE?,liranbh,54kxn3,http://www.discoversdk.com/blog/10-best-python-ides,44,,2016-09-26 14:48:40
+"Throw your hands in the air if you cancelled your PyCharm subscription because you dreaded opening it and waiting 3,000 years for it to ""index your project"" instead of you being able to get something done. goodbye pycharm. Hello VS Code.",metaperl,uivtiq,https://www.reddit.com/r/Python/comments/uivtiq/throw_your_hands_in_the_air_if_you_cancelled_your/,329,"I just cancelled my PyCharm subscription after being a faithful purchaser of the Pro version for 5 years. I really liked the ability to navigate complex object hierarchies.. it saved my bacon once... but I refuse to use this thing on a personal basis and deal with 3-10 minutes of ""scanning.... indexing ....."" .
+
+later JetBrains.",2022-05-05 11:58:17
+Which tools would you find useful as Python developers?,gulgotcj,10r86ff,https://www.reddit.com/r/Python/comments/10r86ff/which_tools_would_you_find_useful_as_python/,13,"What tools would you like to see that would help you the most with development?
+
+1. Refactoring code for better readability, maintainability, and performance.
+2. Identify potential bugs, security vulnerabilities, and performance issues.
+3. Automated debugging and identifying the root causes of bugs.
+4. Automated testing tools to ensure the correct functionality of code.
+5. Generation of documentation from code structure and comments.
+
+Thank you in advance.",2023-02-01 22:23:01
+How to Set up a Perfect Python Project,andre-felipe-dias,ss9y7q,https://www.reddit.com/r/Python/comments/ss9y7q/how_to_set_up_a_perfect_python_project/,12,"Starting a new Python project doesn't have to be a challenge because the basic needs are always the same even for different types of projects.  This article presents how to create a perfect initial base that can be used for any Python project.
+
+[https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/](https://blog.pronus.io/en/posts/python/how-to-set-up-a-perfect-python-project/)",2022-02-14 12:55:40
+How to Fail In a Successful Way at Anything You Do as a software developer,students-life,1f6bb2,http://simpledeveloper.com/how-to-fail-in-a-successful-way/,9,,2013-05-28 02:25:22
+Flying with web2py in Google App Engine,mdipierro,d0aqk,http://www.franciscosouza.net/2010/08/flying-with-web2py-in-google-app-engine.html,1,,2010-08-12 09:56:50
+No more Print For Debugging In Python Anymore,sassydesigner,o7emvj,https://towardsdatascience.com/do-not-use-print-for-debugging-in-python-anymore-6767b6f1866d,90,,2021-06-25 02:36:10
+Emacs - the best python editor?,michaelherman,4tb0pn,https://realpython.com/blog/python/emacs-the-best-python-editor#.V4vWsr9c94V.reddit,18,,2016-07-17 19:04:31
+Banish state-mutating methods from data classes,rednafi,18kheee,https://www.reddit.com/r/Python/comments/18kheee/banish_statemutating_methods_from_data_classes/,38,"I've always found mutable data classes or record types in programming languages quite weird. This holds true for any language that supports mutable data classes, like Python, Kotlin, Swift, etc.
+
+Self-mutating methods are even weirder. They break the semantics of the types that these data classes or records represent. I've expanded my thoughts here. Although it mostly talks about Python, the message remains valid for any other language that allows you to add self-mutating methods to data classes.
+
+https://rednafi.com/python/dataclasses_and_methods/",2023-12-17 13:31:11
+Introducing Panther - A Fast and Friendly Python Web Framework,Conclusion-Striking,1568gde,https://www.reddit.com/r/Python/comments/1568gde/introducing_panther_a_fast_and_friendly_python/,17,"Hey everyone!
+
+I'm excited to introduce Panther, a Python web framework that's designed to be fast and easy to use. With Panther, you can build async APIs quickly and efficiently, without sacrificing performance or readability.
+
+Panther comes with a host of features that make it easy to build robust APIs, including:
+
+- Document-oriented database support (including PantherDB and MongoDB)
+- Visual API monitoring in the terminal
+- Caching for APIs (both in-memory and in Redis)
+- Built-in authentication and permission classes (customizable)
+- Custom middleware support
+- Custom throttling support
+
+Getting started with Panther is easy - just create a virtual environment, activate it, and install the framework using pip. Then, you can create a new project using the `panther create` command, and start building your API right away.
+
+Here's a quick example of what a Panther API might look like:
+
+```
+from datetime import datetime, timedelta
+
+from panther.app import API
+from panther.configs import config
+from panther import version, status
+from panther.request import Request
+from panther.response import Response
+from panther.throttling import Throttling
+
+
+@API()
+async def hello_world():
+    return {'detail': 'Hello World'}
+
+
+@API(cache=True, throttling=Throttling(rate=5, duration=timedelta(minutes=1)))
+async def info(request: Request):
+    data = {
+        'version': version(),
+        'datetime_now': datetime.now().isoformat(),
+        'user_agent': request.headers.user_agent,
+        'db_engine': config['db_engine'],
+    }
+    return Response(data=data, status_code=status.HTTP_202_ACCEPTED)
+```
+
+If you're interested in learning more about Panther, check out the documentation at https://pantherpy.github.io, or head over to the GitHub repository at [https://github.com/alirn76/panther. ↗](https://github.com/alirn76/panther.)
+
+Thanks for reading, and happy coding!",2023-07-22 03:07:05
+Practical threaded programming with Python,CreativePunch,20w3in,https://www.ibm.com/developerworks/aix/library/au-threadingpython/,11,,2014-03-20 09:58:09
+7 Awesome Python Libraries To Play,SmallLion__Unity,nzilkg,https://www.reddit.com/r/Python/comments/nzilkg/7_awesome_python_libraries_to_play/,13,"Hey guys! Again! Here are some 7 interesting, and useful Python libraries that may help you with certain instances.
+
+1. Pyperclip
+2. Emoji
+3. Howdoi
+4. Wikipedia 
+5. Antigravity
+6. urllib and Turtle!
+
+Enjoy!
+
+[7 Awesome Python Libraries To Play (hashnode.dev)](https://mr-unity-buddy.hashnode.dev/7-awesome-python-libraries-to-play)
+
+Sample programs are given.",2021-06-14 09:07:41
+Python Insider: Python 3.10.0a7 is now available for testing,genericlemon24,mlbjds,https://blog.python.org/2021/04/python-3100a7-is-now-available-for.html,0,,2021-04-06 13:22:24
+I made a command-line-interface for PyPI as a 14 year old,wasimaster,q8rrx7,https://www.reddit.com/r/Python/comments/q8rrx7/i_made_a_commandlineinterface_for_pypi_as_a_14/,31,"## Introduction
+
+So I've just finished making [pypi-command-line](https://wasi-master.github.io/pypi-command-line/ ""Documentation"")
+
+## Links
+
+**Documentation**: <https://wasi-master.github.io/pypi-command-line/>  
+GitHub: <https://github.com/wasi-master/pypi-command-line>  
+PyPI: <https://pypi.org/project/pypi-command-line>
+
+## Some background
+
+*I'm a 14 year old coder* that started programming in python around one and a half years ago. Since then I've learned a lot of other languages too. My biggest project so far would be my discord bot which has around 15k lines of code and on which I spent thousands of hours on, all open source. Lately, I've been trying out other projects and PyPI-command-line is one of them. One day I was making something with a library that I was not familiar with, I had to keep switching between chrome and vscode (or I could have like made them side by side but that takes away a large chunk of space for vscode). So I thought what if there was a library that implemented the PyPI API that I could use to be more productive? So I started searching, and not so long after I found two libraries both of which have only one (ish) working command. So I thought to myself what if I make my own library? Then I started this and after around 3 months here we are now.
+
+I tried to make it as fast as possible even if it means making the code look ugly, but after a few days I realized that this is gonna be really hard to maintain and will have other issues, but I was too busy with school (my final exams are near) so I didn't care about it and went on. Fast forward a couple of months and now my code is the shittiest code I've ever seen, So apologies for that. 
+
+This also taught me that python is very slow. The code has a 1400 ms (1.4s) overhead for starting up and after that everything works extremely fast. I think that overhead is caused by python interpreting that huge shitty code and trying to make sense of that. I've recently thought about moving them to multiple files and then loading only the file necessary for the current command but I think I'll just rewrite all this in [Go](https://golang.org) using [Cobra](https://github.com/spf13/cobra)
+
+## Installation, Usage, Demo, Features
+
+All can be found in the [documentation](https://wasi-master.github.io/pypi-command-line/)
+
+- [Installation](https://wasi-master.github.io/pypi-command-line/install)
+- [Usage and Demo](https://wasi-master.github.io/pypi-command-line/usage)
+- [Features](https://wasi-master.github.io/pypi-command-line/smart_features/)
+
+Still here are some of the features/commands that I'm proud of
+
+Command and Argument Autocompletion
+Image demonstrating the feature: https://i.imgur.com/v0z2hJS.gif
+
+Smart command matching (if the command name is shortened/invalid)
+
+Example with one match: https://i.imgur.com/fMXJALV.png  
+Even works with multiple matches: https://i.imgur.com/sBfgfmC.gif   
+(Multiple commands start with r, the user has to pick one)
+
+Search command that returns the same results as PyPI
+
+Image demonstrating the feature: https://i.imgur.com/3Lh3X7x.gif
+
+Information command that shows information about a package (command name renamed to information, previously info)
+
+Image demonstrating the command: https://i.imgur.com/V3FHcAx.gif
+
+Description command to see project descriptions that are formatted correctly (command name renamed to description, previously desc)
+
+Image demonstrating the command: https://i.imgur.com/JpVavke.gif
+
+Search command using regular expressions
+
+Image demonstrating the command: https://i.imgur.com/Mef6x5i.gif
+
+This list is not exhaustive. For more cool commands see [the docs](https://wasi-master.github.io/pypi-command-line/usage). I highly suggest you to check the docs since there are a lot more cool stuff that isn't mentioned here
+
+## Note
+
+My exams are very near and I'll probably not be able to work on this for a while, it's pretty good as it is but if you find bugs you should create an issue and I'll sit on my PC like once every 3 days or something like that and try to fix everything.",2021-10-15 16:16:01
+Are people abusing Python?,relickus,11wye72,https://www.reddit.com/r/Python/comments/11wye72/are_people_abusing_python/,45,"I learned Python after coming from the C/C++ and Java world. With the massive increase in popularity of Python in the last 10 years, seeing the way it developed, it seems to me like it gained a lot of functionality, which comes natural in other languages, but feels a bit odd in Python.
+
+To be more specific - albeit Python being dynamically typed, people developed countless tools to check or validate or even enforce types in compile or run time (mypy, pyre, pydantic, pyduck etc.). It feels like it goes against the nature of its loose typing.
+
+Another example are decorators. This pattern is noticably overused by many tools adding functionality, but even the language itself - defining a \`class\`,\`static\` and \`abstract\` methods with decorators seems just weird and unnatural. Same thing with function overloading.  Anecdotally, it feels like comparing German to English. German has a special word for every peculiar thing and native support for word generation by concatenation of multiple words whilst in English you have to add some common words together and hope this combination doesnt already exist. And if it does, so what, people will get it from the context.
+
+Lastly, slightly off-topic but relevant point is that it is not even a simple language in my opinion. It has a very flat learning curve initially but the complexity is just further down the road. Im talking about metaclasses,data descriptors, coroutines, magic methods etc. Some languages are difficult right away (C++, Rust etc.), but Python is a intricate misfit dressed as a simpleton.
+
+Am I misunderstanding a philosophical path of the language or is it simply just a scripting langugage that got massively popular through chance and is now used for stuff it was not intended for?
+
+Edit: grammar",2023-03-20 22:32:03
+"It's Python, not phyton",fthrkl,12fehl,http://itspython.com/,12,,2012-10-31 23:22:33
+Save me from gst,frutiger,6wnmb,https://www.reddit.com/r/Python/comments/6wnmb/save_me_from_gst/,23,,2008-08-17 05:41:40
+Some neat tricks for concise Python,Guomindang,7h2pdi,https://twitter.com/chordbug/status/923928186039173120,9,,2017-12-02 13:48:29
+Advantage of Python 3 (Functions and Variables),ado6789,6y7jwx,https://medium.com/@petloverooka/advantage-of-python-3-functions-and-variables-da8b61bf352c,4,,2017-09-05 12:09:50
+5 Reasons why Python is Powerful Enough for Google,mignonmazion,355tph,https://www.codefellows.org/blog/5-reasons-why-python-is-powerful-enough-for-google,58,,2015-05-07 10:33:07
+Photoshop'd parentheses on my background to match Python3,Sidappa,d0zblg,https://i.imgur.com/EIMQ8nD.jpg,2,,2019-09-07 18:02:28
+"What does =_ mean? Example: name=forms.CharField(label=_(""Name""), max_length=50)",Unknown Author,b4uf1,https://www.reddit.com/r/Python/comments/b4uf1/what_does_mean_example_nameformscharfieldlabel/,20,"Python newbie here. I've been going through some of the code in the Django comments app, and I've see the =_ used frequently. I can't find what it is or what it does? Any ideas? 
+
+Example:
+    name          = forms.CharField(label=_(""Name""), max_length=50)
+    email         = forms.EmailField(label=_(""Email address""))
+    url           = forms.URLField(label=_(""URL""), required=False)
+    comment       = forms.CharField(label=_('Comment'), widget=forms.Textarea,
+                                    max_length=COMMENT_MAX_LENGTH)
+
+edit:
+Thanks for the detailed explanations! :)",2010-02-22 03:44:58
+[META] What has this subreddit turned into?,Unknown Author,1csnad,https://www.reddit.com/r/Python/comments/1csnad/meta_what_has_this_subreddit_turned_into/,41,"A lot of basics question asked, very simple and bad scripts presented. It's really sad, because this subreddit used to be great for python.",2013-04-21 11:42:55
+6 Experts share amazing ways a beginner can learn Python programming.,winner_godson,7f9bpb,https://coolpythoncodes.com/best-way-learn-python-programming/,13,,2017-11-24 18:29:29
+How for loops work in Python?,pylenin,t123we,https://www.reddit.com/r/Python/comments/t123we/how_for_loops_work_in_python/,1,"While studying up on Python iterators, I got to learn how for loops work behind the scenes. It's so funny, I never really bothered to understand it or thought about it - How does a for loop actually work?
+
+Apparently, it is very easy. Python uses the next() method to return the next element in the iterator. I have written a [blog](https://www.pylenin.com/blogs/python-iterators/) on it. If you are interested, do check it out.",2022-02-25 11:46:19
+Can we not circle jerk?,Super_heavy,4fkpkj,https://www.reddit.com/r/Python/comments/4fkpkj/can_we_not_circle_jerk/,34,"The top post right now is about how somebody ""discovered"" Python. I'm all for a larger community but that's the hottest thing in Python right now? Nothing new to learn, just stories about how you used to use PHP, but now you use Python? I understand I can just un-sub but I (like everyone else apparently) like to learn new things about Python and wish this sub had more of that.",2016-04-20 00:33:41
+Mark Pilgrim: Python 3 is a commercial disaster.,Unknown Author,f59yy,http://www.reddit.com/r/IAmA/comments/f545e/i_am_a_fourtime_published_author_i_write_free/c1dcgsm,6,,2011-01-19 19:05:47
+I'm Pickled Rick!!!,alkaline3mc,6u7838,https://i.redd.it/np5b5pp0s7gz.png,8,,2017-08-17 03:04:49
+It’s Time to Say Goodbye to These Obsolete Python Libraries,Am4t3uR,w3mtbr,https://python.plainenglish.io/its-time-to-say-goodbye-to-these-obsolete-python-libraries-7c02aa77d84a,1,,2022-07-20 13:48:57
+Can we stop overvaluing PEP-8?,Unknown Author,ddq2y,https://www.reddit.com/r/Python/comments/ddq2y/can_we_stop_overvaluing_pep8/,54,"If we're going to be giving out negative marks for projects not following [PEP-8](http://www.python.org/dev/peps/pep-0008/), we might as well give Reddit negative marks for not following [XHTML 1.0 Transitional](http://validator.w3.org/check?uri=www.reddit.com&charset=\(detect+automatically\)&doctype=Inline&group=0) standards. Oh snap...
+
+This is nothing new, but it's kind of ridiculous to still see comments like ""this would be better if it followed PEP-8"" or ""I don't get why people don't follow the standard"" (made up comments, but close enough to what I've seen).
+
+***
+The first sentence of PEP-8 states, with added emphasis...
+> This document gives coding conventions **for the Python code comprising the standard library in the main Python distribution**.
+
+That means exactly what it says. It is not intended to be some language-wide standard that everyone must follow in every project that uses Python under the sun. There is no canonical C++ coding standard that all C++ ever written has to follow. C# isn't bound by law to be written the same by everyone around the world. Perl...well, nevermind.
+
+Personally, I think PEP-8 is quite a fine standard, one I *choose* to use in my personal work, and one I'm bound by for the work I do within Python itself (additionally, see [PEP-7](http://www.python.org/dev/peps/pep-0007/)). If someone wants to make the next great web framework use ALL CAPS, go right ahead, it'll probably still be cool.
+
+***
+The second section of PEP-8 states, again with added emphasis...
+> Consistency with this style guide is important.  Consistency *within a project* is **more important**. Consistency *within one module or function* is **most important**.
+
+Remember those projects ""not following PEP-8""? Well, PEP-8 still loves them. The stdlib's own [unittest](http://svn.python.org/view/python/branches/py3k/Lib/unittest/case.py?view=markup) package is fine by PEP-8, although many would have you believe otherwise. The API is very widely used and changing it to more strictly follow PEP-8 would be damaging, but its consistency over the lifetime of the package (previously just a module) gives it a thumbs up.
+
+***
+Right after that, PEP-8 states...
+> But most importantly: know when to be inconsistent -- sometimes the style guide just doesn't apply.
+
+I've read comments stating that [pywin32](http://sourceforge.net/projects/pywin32/) and [wmi](http://timgolden.me.uk/python/wmi/index.html) would be better if they followed PEP-8. For a second, lets forget a previous statement that it's a standard for the internals of Python and not a global standard. If we open it up to be a global standard, those packages are wrappers of Win32 functionality, and as such, should be as close as possible to direct mirrors of the Win32 APIs they cover. Changing WaitForSingleObject to wait\_for\_single\_object gains absolutely nothing. In fact, it becomes less useful, because tracking down the documentation for the underlying call becomes more difficult, among other things.
+
+***
+So, can we please give up the ""PEP-8 or die!"" mentality? If you want to follow the standard, great, high-five to you. If you want to name your classes with lower case and use camel case method names, great, high-five to you as well.",2010-09-14 15:34:56
+15 Essential Python Interview Questions,diogoleal,3tk8xh,https://www.codementor.io/python/tutorial/essential-python-interview-questions,67,,2015-11-20 12:58:00
+Why is P vs NP Important?,llSourcell,5ewu29,https://www.youtube.com/watch?v=9MvbNPQiEE8,12,,2016-11-26 00:44:26
+What's up with Python people and Ruby?,bobby_knuckles,28fu21,https://www.reddit.com/r/Python/comments/28fu21/whats_up_with_python_people_and_ruby/,30,"I am currently learning both Python and Ruby and I love them both. I have been attending meetups, hackathons, and taking online courses. Whenever I talk to Ruby users, they're always open to discussing other languages and platforms and it's generally just a good time. However, when I take Python classes or attend Python-centric events, no one ever brings up Ruby, which actually seems weird because they seem so similar. I'm actually starting to feel like it's rude to talk about Ruby to Python users. What's up with that, yo?
+
+edit: nice. Down-voting me for asking a simple question.",2014-06-18 06:21:30
+DIY SaaS with Python & Streamlit,InterestingBasil,1910de9,https://www.reddit.com/r/Python/comments/1910de9/diy_saas_with_python_streamlit/,11,"I've been trying to turn my data science scripts into a full-blown SaaS, and I wanted to share my process and some helpful tidbits. I recently dove into building a SaaS web app using Python, Streamlit, MongoDB, and Stripe. Here's a distilled version [of the guide that got me started](https://medium.com/gitconnected/build-a-data-science-saas-app-with-just-python-a-streamlit-guide-240e0a56fc86) and my experience so far.
+
+**Getting Started with Streamlit and Python:**
+
+Streamlit is a godsend for Python developers who want to create web apps without the frontend hassle. It lets you focus on the Python stuff while taking care of the UI elements. Start by installing Streamlit and exploring its functionalities with simple apps.
+
+**Building the Core Features:**
+
+Here's what you'll be piecing together:
+
+**User Authentication with MongoDB:** This is your first step into making your app secure and personalized. Start by setting up a MongoDB cluster (Atlas is a good start). You'll need to handle user registration, login, and session management. Python's 'pymongo' library will be your bridge to interact with MongoDB.
+
+**Email Verification:** A crucial step for validating users. You'll typically use a third-party service to send emails and then update the user's status in your database once they confirm.
+
+**Handling Subscriptions with Stripe:** If you plan to monetize your app, integrating a payment system like Stripe is essential. Begin with setting up a Stripe account and then use their API to create subscription plans and handle payments. Python's 'stripe' package will be useful here.
+
+**Data Science Tools with GPT-3.5:** This is where the fun begins. Using OpenAI's GPT-3.5, you'll add features like language translation and text summarization. You'll interact with the OpenAI API and process the data to provide these services.
+
+**Step by Step:**
+
+**Set Up Your Environment:** Make sure Python, pip, and all necessary packages like 'streamlit', 'pymongo', and 'stripe' are installed.
+
+**Layout Your App with Streamlit:** Use Streamlit's widgets to create the user interface. You'll have sections for user registration/login, text input for the GPT-3.5 tools, and subscription management.
+
+**Integrate MongoDB:** Write functions to connect to your MongoDB database for user registration and authentication. You'll store user details and manage sessions here.
+
+**Email Verification Logic:** Set up a method to send verification emails to users and a route in your app to handle the confirmation logic.
+
+**Subscription Management with Stripe:** Use Stripe's API to create and manage subscriptions. You'll need to handle webhook events for subscription updates.
+
+**Incorporate GPT-3.5 Features:** Utilize OpenAI's API to add your data science tools. Ensure you handle the API responses correctly and present the results in your app.
+
+**Testing and Iterating:**
+
+As you build, constantly test each component. Streamlit allows you to see changes in real-time, which is great for tweaking and fixing issues on the go.
+
+**Deployment:**
+
+Once you're happy with your app, you can deploy it using various services. Streamlit sharing is a straightforward option for small-scale apps. For something more robust, look into services like Heroku or AWS.
+
+I wrote up a [full guide here](https://medium.com/gitconnected/build-a-data-science-saas-app-with-just-python-a-streamlit-guide-240e0a56fc86?sk=89b0d73ad134b809e0e831b7f6e3f3ca) for folks interested.",2024-01-07 19:38:01
+"The Python documentation is bad, and you should feel bad.",joepie91,18ssb6,http://joepie91.wordpress.com/2013/02/19/the-python-documentation-is-bad-and-you-should-feel-bad/,189,,2013-02-19 04:30:41
+Image upload and moderation with Python and Flask,agrandiere,6jrehl,https://medium.com/@antoinegrandiere/image-upload-and-moderation-with-python-and-flask-e7585f43828a,8,,2017-06-27 08:43:05
+An alternative lambda syntax for Python,vocalbit,iohrl,http://vocalbit.com/article/332/an-alternative-lambda-syntax-for-python,41,,2011-07-13 15:16:21
+First python program it displays information about different animals,KageUchiha-,gg5kjf,https://i.redd.it/pt189h950nx41.png,0,,2020-05-09 00:51:32
+[nsfw] script-alize every ***king thing in life e.g. texting to wife etc.,kmbd,3u2ktk,https://github.com/NARKOZ/hacker-scripts,2,,2015-11-24 12:29:23
+"A friend has been after me to learn python for over a year. I finally gave in, and now I suspect I am a god.",hknoll,1kokvo,http://xkcd.com/353/,5,,2013-08-19 19:16:37
+Been learning Python as my first language for about two weeks now. Wanted to show off my first couple simple programs. ,Unknown Author,10r3hy,https://www.reddit.com/r/Python/comments/10r3hy/been_learning_python_as_my_first_language_for/,12,"Guessing game:
+
+http://imgur.com/PnutX
+
+Fibonacci Sequence:
+
+http://imgur.com/HVEDG
+
+While I'm understanding the basics, I feel like I need a way to supplement reading tutorials, which is the only way I've been learning so far. Can anyone recommend a website like Codecademy, where I can practice interactively? For some reason, the Python tutorials on Codecademy don't work for me. ",2012-10-01 07:56:51
+Python logo in Lego,Unknown Author,25k1sc,https://imgur.com/egkA2Xu,20,,2014-05-14 18:13:19
