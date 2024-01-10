@@ -19,7 +19,7 @@ class DocumentFactory(abc.ABC):
 
 # Classe de base pour tous les types de documents
 class Document:
-    type = "Document"
+    type = "Document" 
 
     def __init__(self, title, url, created_date, body, doc_id):
         self.title = title
