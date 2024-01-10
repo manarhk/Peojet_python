@@ -123,7 +123,7 @@ app.layout = html.Div([
     html.Div(id='search-results')
 ])
 
-def search_and_add_documents(search_query, dataframe, document_factory, author_query=None, date_query=None):
+def search_and_add_documents(search_query, dataframe, document_factory, author_query=None, date_query=None): #Proposée par CHATGPT
     relevant_docs = []
     
     # Filtrer les lignes du DataFrame qui correspondent à la recherche
